@@ -1,4 +1,4 @@
-export default function(state=null, action) {
-  //console.log('Action Receaved!', action);
+export default function(state=[], action) {
+  console.log('Action Receaved!', action);
   return state;
 }
